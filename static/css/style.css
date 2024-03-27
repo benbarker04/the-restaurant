@@ -1,84 +1,107 @@
 /*-----------------------------------------Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+/*-----------------------------------------wildcard selector*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*-----------------------------------------Fonts*/
+/*-----------------------------------------General Styles*/
 .logo{
     font-family: 'Dancing Script', cursive;
 }
 
-#logo-header {
-    text-align: left;
-    font-size: 6vw;
-    padding: 0 1%;
+nav ul{
+    list-style-type: none;
+}
+
+/*-----------------------------------------Styles for phone screens*/
+nav{
+    position: absolute;
+    right: 0;
+    padding: 0 4rem 0 2rem;
+    background-color: lavender;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
+
+
+
+/*-----------------------------------------media query:desktops and larher(1200px and wider)*/
+@media screen and (min-width: 1200px) {
+
+
+    /*-----------------------------------------header*/
+    #logo-header {
+        text-align: left;
+        font-size: 6vw;
+        padding: 0 1%;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*-----------------------------------------nav bar*/
+    nav {
+        text-align: right;
+        padding: 4% 5%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0 0 4;
+        margin: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        padding-right: 5%;
+    }
+
+    nav a {
+        display: block;
+        color: black;
+        padding: 2% 5%;
+        text-decoration: none;
+        white-space: nowrap;
+        font-size: 150%;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    /*-----------------------------------------Footer*/
+    footer{
+    width: 100%;
     position: fixed;
-    z-index: 10;
+    bottom: 0;
+    background-color: lavender;
     display: flex;
     justify-content: space-between;
-}
+    align-items: center;
+    }
 
-/*-----------------------------------------nav bar*/
-nav {
-    text-align: right;
-    padding: 4% 5%;
-}
+    #logo-footer{
+        text-align: center;
+        font-size: 30px;
+        padding-left: 20px;
+    }
 
-nav ul {
-    list-style-type: none;
-    padding: 0 0 4;
-    margin: 0;
-}
+    #socials{
+        text-align: right;
+    }
 
-nav li {
-    display: inline-block;
-    padding-right: 5%;
-}
+    #socials ul {
+        display: flex;
+        list-style-type: none;
+    }
 
-nav a {
-    display: block;
-    color: black;
-    padding: 2% 5%;
-    text-decoration: none;
-    white-space: nowrap;
-    font-size: 150%;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/*-----------------------------------------Footer*/
-footer{
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  background-color: lavender;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#logo-footer{
-    text-align: center;
-    font-size: 30px;
-    padding-left: 20px;
-}
-
-#socials{
-    text-align: right;
-}
-
-#socials ul {
-    display: flex;
-    list-style-type: none;
-}
-
-#socials a{
-    margin-right: 60px;
-    font-size: 30px;
+    #socials a{
+        margin-right: 60px;
+        font-size: 30px;
+    }
 }
