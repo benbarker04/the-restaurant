@@ -18,14 +18,51 @@ nav ul{
 }
 
 /*-----------------------------------------Styles for phone screens*/
-nav{
+
+/*-----------------------------------------Header*/
+header{display: flex;
+    justify-content: space-between;
+    align-items: baseline;}
+
+/*-----------------------------------------Navbar*/
+nav {
     position: absolute;
+    height: 100%;
     right: 0;
     padding: 0 4rem 0 2rem;
     background-color: lavender;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    z-index: 1;
 }
+
+nav li{
+    margin:2rem 0 0 0;
+}
+
+#bars {
+    margin-right: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+#navbar-image{
+    width: 150px;
+    height: 175px;
+    margin: 20rem 0 0 0;
+}
+
+/*-----------------------------------------Navbar Toggle*/
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+
 
 
 

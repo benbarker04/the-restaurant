@@ -11,13 +11,16 @@
 
     <header>
         <h1 class="logo" id="logo-header">The Lavender Field</h1>
-        <nav>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i id="bars" class="fa-solid fa-bars" style="color: #000000;"></i></label>
+        <nav id="menu">
             <ul>
                 <li><a href="{{ url_for('index') }}">Home</a></li>
                 <li><a href="{{ url_for('booking') }}">Book a Table</a></li>
                 <li><a href="{{ url_for('menus') }}">Menus</a></li>
             </ul>
-        </nav>
+            <img id="navbar-image" src="../static/images/Lavender-PNG-Cutout.png" alt="Image of some Lavender">
+        </nav>  
     </header>
 
     {% block content %}
@@ -35,7 +38,7 @@
                 <li><a href="https://www.tiktok.com/en/" target="_blank" rel="noopener" aria-label="Visit our tiktok page (opens in new tab)"><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a></li>
             </ul>
         </div>
-    </footer>
+    </footer>-->
 
     <script src="https://kit.fontawesome.com/bf524db846.js" crossorigin="anonymous"></script>
 </body>
