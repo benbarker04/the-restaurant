@@ -15,6 +15,11 @@ def booking():
     return render_template("booking.html")
 
 
+@app.route("/menus")
+def menus():
+    return render_template("menus.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),

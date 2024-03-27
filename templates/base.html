@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The lavender field</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <title>The Lavender Field</title>
 </head>
 <body>
+
     <header>
-        <h1>The Lavener Field</h1>
+        <h1 class="logo" id="logo-header">The Lavender Field</h1>
         <nav>
             <ul>
                 <li><a href="{{ url_for('index') }}">Home</a></li>
                 <li><a href="{{ url_for('booking') }}">Book a Table</a></li>
+                <li><a href="{{ url_for('menus') }}">Menus</a></li>
+            </ul>
         </nav>
     </header>
 
     {% block content %}
     {% endblock %}
 
+    <footer>
+        <div class="logo" id="logo-footer">
+            <h2>The Lavender Field</h2>
+        </div>
+        <div id="socials">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-facebook" style="color: #000000;"></i></a></i></li>
+                <li><a href=""><i class="fa-brands fa-instagram" style="color: #000000;"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-x-twitter" style="color: #000000;"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-tiktok" style="color: #000000;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/bf524db846.js" crossorigin="anonymous"></script>
 </body>
 </html>
