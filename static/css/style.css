@@ -408,6 +408,7 @@ footer{
     /*-----------------------------------------Footer*/
     footer{
     width: 100%;
+    position: fixed;
     bottom: 0;
     background-color: lavender;
     display: flex;
@@ -435,3 +436,53 @@ footer{
         font-size: 30px;
     }
 }
+
+/*-----------------------------------------Menus page*/
+/*-----------------------------------------Styles for phone screens*/
+@media only screen and (max-width: 767px){
+    .customer-menu {
+        text-align: center;
+    }
+}
+
+/*-----------------------------------------Styles for tablets*/
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    #customer-menu h1{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #customer-menu{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    #customer-menu ul {
+        list-style: none;
+        font-size: 20px;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+/*-----------------------------------------Styles for desktops and larger*/
+@media screen and (min-width: 1200px){
+    #customer-menu{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    #customer-menu h1{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #customer-menu ul{
+        list-style: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+

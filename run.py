@@ -15,9 +15,9 @@ def booking():
     return render_template("booking.html")
 
 
-@app.route("/menus")
-def menus():
-    return render_template("menus.html")
+@app.route("/menu")
+def menu():
+    return render_template("menu.html")
 
 
 if __name__ == "__main__":
