@@ -18,9 +18,10 @@ nav ul{
 }
 
 /*-----------------------------------------Styles for phone screens*/
-
-/*-----------------------------------------Header*/
-header{display: flex;
+@media only screen and (max-width: 767px){
+    /*-----------------------------------------Header*/
+header{
+    display: flex;
     justify-content: space-between;
     align-items: baseline;}
 
@@ -92,10 +93,82 @@ footer{
         margin:60px 60px 0 5px;
         font-size: 20px;
     }
+}
+
+/*-----------------------------------------Styles for tablets*/
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    /*-----------------------------------------Header*/
+    #logo-header{
+        font-size: 4rem;
+        padding: 0 1%;
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /*-----------------------------------------nav bar*/
+    nav {
+        text-align: right;
+        padding: 4% 5%;
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 0 0 0 5%;
+    }
+
+    nav a{
+        text-decoration: none;
+    }
+    
+    #bars{
+        display: none;
+    }
+
+    #navbar-image{
+        display: none;
+    }
+
+    #nav-toggle{
+        display: none;
+    }
+
+    /*-----------------------------------------Footer*/
+    footer{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background-color: lavender;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+    
+        #logo-footer{
+            text-align: center;
+            font-size: 30px;
+            padding-left: 20px;
+        }
+    
+        #socials{
+            text-align: right;
+        }
+    
+        #socials ul {
+            display: flex;
+            list-style-type: none;
+        }
+    
+        #socials a{
+            margin-right: 60px;
+            font-size: 30px;
+        }
+    
+}
 
 
-
-/*-----------------------------------------media query:desktops and larher(1200px and wider)*/
+/*-----------------------------------------media query:desktops and larger(1200px and wider)*/
 @media screen and (min-width: 1200px) {
 
 
@@ -114,6 +187,18 @@ footer{
     nav {
         text-align: right;
         padding: 4% 5%;
+    }
+
+    #bars{
+        display: none;
+    }
+
+    #navbar-image{
+        display: none;
+    }
+
+    #nav-toggle{
+        display: none;
     }
 
     nav ul {
@@ -139,6 +224,8 @@ footer{
     nav a:hover {
         text-decoration: underline;
     }
+
+
 
     /*-----------------------------------------Footer*/
     footer{
