@@ -487,17 +487,69 @@ footer{
 }
 
 /*-----------------------------------------booking page page*/
-#box{
-    margin-top: 5rem;
-    background-color: lavender;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+/*-----------------------------------------Styles for phone screens*/
+@media only screen and (max-width: 767px){
+    #box {
+        margin-top: 1rem;
+        background-color: lavender;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #booking-form {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    #booking-form input, #booking-form select, #booking-form textarea {
+        width: 70%;
+        margin-bottom: 7px;
+        margin-left: 2rem;
+        font-size: 0.9rem;
+    }
 }
 
-#booking-form{
-    max-width: 600px;
-    margin: 0 auto; 
-    padding: 20px; 
+
+@media only screen and (min-width: 768px) and (max-width: 1199px){
+    #box{
+        background-color: lavender;
+        margin-top: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 60rem;
+    }
+
+    #booking-form{
+        max-width: 600px;
+        margin: 0 auto; 
+        padding: 20px; 
+        font-size: 1.5rem;
+    }
+
+    #booking-form input{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #box{
+        margin-top: 5rem;
+        background-color: lavender;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #booking-form{
+        max-width: 600px;
+        margin: 0 auto; 
+        padding: 20px; 
+    }
 }
