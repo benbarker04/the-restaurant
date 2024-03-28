@@ -486,3 +486,18 @@ footer{
     }
 }
 
+/*-----------------------------------------booking page page*/
+#box{
+    margin-top: 5rem;
+    background-color: lavender;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#booking-form{
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px; 
+}
