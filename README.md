@@ -1,39 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![image](https://github.com/benbarker04/the-restaurant/assets/131170958/ee230f44-57b3-42c9-aab3-8161d0e5fcd8)# The Lavender Field 
 
-Welcome,
+The Lavender Field website is a website for people who want to book a table at The Lavender Field restaurant or for people who are looking for a restaurant to eat at and want to browse the menu.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of the website can find all the information they need about The Lavender Field: opening times, the food they serve and the prices. This site targets people who would like to book a table at The Lavender Field.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+![amiresponisive](https://github.com/benbarker04/the-restaurant/assets/131170958/4c24f945-ecb8-49ef-a36c-1e07a6646158)
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Features
+* Navigation
+  - Featured at the top of the page, is the name of the restaurant in the left corner: The Lavender Field
+  - To the right is the navigation bar for Home, book a table and menu which links to the other pages of the website.
+  - The navigation tells the user the name of the restaurant and website and makes the different sections of information easy to find.
+ 
+![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/e8c6a332-1cd3-4c01-ada3-58ecc83cfdf0)
 
-`python3 -m http.server`
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* The Cover Image
+  - The cover image shows a picture of the restaurant
+  - The cover image tells the user it's in Birmingham and it is fine dining.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/9e09edb2-dead-44d4-b3a9-e9eaa445bc85)
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Opening Hours
+  - The opening hours section gives the customer details on when the restaurant is open.
+  - to the right of the information it shows the customer a picture of a meal they serve.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/2b00d6cd-1acd-4c63-a1ef-e44670816a62)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* The footer
+  -The footer includes social media icons so users can find Ben's Chess Club on Facebook, Twitter, Instagram and Tiktok.
 
-To log into the Heroku toolbelt CLI:
+![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/142d13bf-859e-464c-94c7-78190dce6999)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* The Menu Page
+  - The menu page shows customers the menu which includes the food and drink they serve and the prices.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  ![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/14b66c4e-22a6-48c5-9fdf-4a85c3e34862)
 
----
+* The book-a-table page
+  - The book-a-table page has a form so that the customer can book a table at the restaurant.
+  - The form collects the first and last name, email address, phone number, the date they want to book, the time and how many guests there will be.
+  - The booking form is valuable to the user as it gives the customer the ability to book a table.
 
-Happy coding!
+  ![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/f27dbff0-fd5b-40ab-a641-e18a5f0cf469)
+
