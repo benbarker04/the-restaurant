@@ -46,3 +46,38 @@ Users of the website can find all the information they need about The Lavender F
 
   ![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/f27dbff0-fd5b-40ab-a641-e18a5f0cf469)
 
+## Testing
+* I tested that this page works on different browsers: Chrome, Microsoft Edge and Safari
+
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the dev tools device toolbar.
+
+* I have confirmed that all sections and pages are all readable and easy to understand.
+
+* I have confirmed that the form works: requires an entry in every field apart from the "special requests" field and saves the data onto the ElephantSQL database.
+
+## Bugs
+
+* When I deployed my project to Heroku I discovered that there were no bugs and therefore didn't need to fix any.
+
+## Validator Testing
+
+* HTML
+  - No errors were returned when passing through the official W3C validator.
+*CSS
+  - No errors were found when passing through the official (Jigsaw) validator
+*Accessibility
+  - I have confirmed that the fonts and colours chosen are easy to read and accessible by running it through the lighthouse in dev tools.
+
+![Untitled](https://github.com/benbarker04/the-restaurant/assets/131170958/4739fc53-2d32-4c96-9f9e-7fb96a832242)
+
+
+## Deployment
+
+* This site was deployed to Heroku. The steps to deploy are as follows:
+    - Fork or clone this repository.
+    - Create a new Heroku app.
+    - Set the buildbacks to `Python`.
+    - Link the Heroku app to the repository.
+    - Click on **Deploy**.
+
+   The live link can be found here-[The Lavender Field](https://the-lavender-field-c5181afafaa2.herokuapp.com/)
