@@ -1,4 +1,4 @@
-![image](https://github.com/benbarker04/the-restaurant/assets/131170958/ee230f44-57b3-42c9-aab3-8161d0e5fcd8)# The Lavender Field 
+# The Lavender Field 
 
 The Lavender Field website is a website for people who want to book a table at The Lavender Field restaurant or for people who are looking for a restaurant to eat at and want to browse the menu.
 
@@ -30,7 +30,7 @@ Users of the website can find all the information they need about The Lavender F
 ![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/2b00d6cd-1acd-4c63-a1ef-e44670816a62)
 
 * The footer
-  -The footer includes social media icons so users can find Ben's Chess Club on Facebook, Twitter, Instagram and Tiktok.
+  -The footer includes social media icons so users can find The Lavender Field on Facebook, Twitter, Instagram and Tiktok.
 
 ![nav](https://github.com/benbarker04/the-restaurant/assets/131170958/142d13bf-859e-464c-94c7-78190dce6999)
 
